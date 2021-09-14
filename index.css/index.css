@@ -1,0 +1,187 @@
+body, html{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('../imagens/pexels-johnmark-smith-281962.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    padding: 5px 0;
+    width: 300px;
+    height: 120px;
+}
+header{
+    border-top:2px solid #ccc ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid #ccc;
+    width: 99%;
+    height: 126px;
+    background-color:rgb(250, 250, 250);
+}
+nav{
+    float: right;
+    margin: 40px 10%;
+}
+nav a {
+
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 21px;
+    color: black;   
+    font-family: 'Rochester', cursive;
+}
+
+.main{
+   
+   display:flex;
+    color: rgb(223, 213, 213);
+    font-family: 'Rochester', cursive;
+    width: 100%;
+    height:100%;
+    font-size: 40px;
+  
+}
+.main h2 {
+    align-items: left;
+    font-size: 60px;
+    color: rgb(12, 12, 12);
+    font-family: 'Parisienne', cursive;
+
+}
+.container{
+    padding: 5%;
+    float: left;
+    width: 50%;
+}
+
+
+#ilustracao{
+    padding: 5%;
+    margin-top:100px;
+    display: flex;
+    width:400px;
+    height:400px;
+    width:50%;
+    
+    
+}
+
+.servicos{ 
+    position:relative;
+    margin: 0 2%;  
+    display: flex;
+    font-family:'Rochester', cursive;
+
+}
+.servicos h1{
+    color:black;
+    font-size: 80px;
+    display:inline-block;
+    position:absolute;
+    right: 50%;
+    top: -150px;
+    transform: translateX(50%);
+
+
+
+}
+.clear{
+    clear: both;
+}
+.box1, .box2, .box3 {
+    
+    background-image: url('../imagens/scroll-1033117_1920.jpg');
+    border: 3px solid rgb(179, 177, 177);
+    margin-left: 8px;
+    border-radius: 25px;
+    line-height:30px ;
+    width: 33.3%;
+    height:500px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(20, 20, 20);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size:200%;
+   
+
+}
+.servicos{
+    font-size:30px;
+    
+}
+
+
+
+.servicos h3{
+    font-family: 'Tangerine', cursive;
+    font-size:50px;
+    color: rgb(22, 21, 21);
+    font-weight:100px;
+}
+.foto{
+    height:100%;
+    width: 50%;
+    max-width:400px;
+    max-height:600px;
+    border-radius:25%;
+
+}
+.sobre{
+    width: 100%;
+    padding: 60px 5%;
+}
+.sobre img{
+    margin-left: 2%;
+    margin-right: -2%;
+}
+.sobre-criadora{
+    width:50%;
+    float:left;
+    margin-top: 50px;
+    text-align: center;
+
+    
+}
+.sobre-criadora p {
+    margin-left:30px;
+    font-size:20px;
+    line-height:40px;
+    
+}
+.subscribe {
+  
+    width: 100%;
+    text-align: center;
+    
+
+
+}
+.subscribe h2 :hover{
+    width: 400px;
+    background-color:rgb(37, 34, 34);
+}
+
+.subscribe h2 {
+    transition: 200;
+    border-radius: 25px;
+    line-height:40px;
+    padding: 20px;
+    height:40px;
+    background-color: rgb(216, 151, 67);
+    display: inline-flex;
+    cursor:pointer;
+    border: 1px solid rgb(56, 56, 56);
+}
+.subscribe p{
+    margin-top: -15px;
+    font-size:18px;  
+}
+.subscribe div:hover{
+    transform:scale(1.08);
+    
+}
