@@ -6,6 +6,7 @@ body, html{
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+  
 }
 
 img{
@@ -33,6 +34,9 @@ nav a {
     font-weight: 21px;
     color: black;   
     font-family: 'Rochester', cursive;
+}
+#cabecalho-mobile{
+    display:none;
 }
 
 .main{
@@ -184,4 +188,103 @@ nav a {
 .subscribe div:hover{
     transform:scale(1.08);
     
+}
+@media only screen and (max-width: 800px){
+    #cabecalho{
+        display:block;
+       
+    }
+    #cabecalho nav{
+        display:none;
+       
+
+    }
+    #cabecalho-mobile {
+       
+        width: 100%;
+        display:inline-block;
+        width: 100%;
+        float: none;
+       border: none;
+        background:none;
+        box-shadow: none;
+
+
+    }
+    #cabecalho-mobile nav :hover{
+            background-color:rgb(221, 161, 161)
+
+        }
+        
+    #cabecalho-mobile nav {
+        display: none;
+        position: relative;
+        width: 100%;
+
+
+    }
+    #cabecalho-mobile nav a{
+      
+        
+        float: none;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display:block;
+        background-color:white;
+        border-bottom:1px solid black;
+    }
+    #logo-mobile{
+    
+        width: 80px;
+        height: 80px;
+        float: right;
+        position:relative;
+        margin-top: -100px;
+     
+    }
+    #logo-mobile:hover{
+        background-color:rgb(221, 161, 161);
+        border-radius: 25%;
+    }
+        
+    
+    
+    .container{
+        padding: 0;
+        margin: 5% 0;
+        float: none;
+        display:inline-block;
+        text-align:center;
+        height:100%;
+        width: 100%;
+      
+       
+       
+       
+    }
+    .container h2{
+        margin: 0;
+        text-align:center;
+    }
+    .container p{
+        margin: 0;
+        display:block;
+        float: none;
+    }
+
+       
+    .main {
+        display:block;
+        text-align: center;
+      
+    
+    }
+    
+    #ilustracao{
+        float: none;
+        width: 100%;
+        margin-right: 20%;
+        max-width:400px;
+    }
 }
